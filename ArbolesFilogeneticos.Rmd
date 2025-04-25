@@ -1,0 +1,82 @@
+---
+title: "Árboles Filogenéticos"
+author: 'BT1013: Análisis de Biología Computacional'
+date: "4/25/2024"
+output:
+  pdf_document: default
+  html_document: default
+---
+### Paquetes y datos
+Instalamos una única vez y hacemos disponibles los paquetes cada vez que trabajemos en los datos con la función library(). Debemos instalar el paquete adgenet install.packages("adegenet", dep=TRUE)
+
+```{r }
+library(ade4)
+library(ape)
+library(adegenet)
+library(Biostrings)
+```
+
+Veamos que los paquetes necesarios estés disponibles en nuestra sesión:
+```{r}
+sessionInfo()
+```
+
+Carguemos los datos que son secuencias de ADN que vamos a utilizar en esta actividad
+```{r}
+dna <- fasta2DNAbin(file="usflu.fasta")
+# veamos que tiene nuestra variable dna
+dna
+
+```
+
+### Anotación de archivos
+Anotar se refiere a propiamente etiquetar los datos.
+```{r}
+annot <- read.csv("usflu.annot.csv", header=TRUE, row.names=1)
+annot
+```
+
+## Paso 1: Calcular las distancias genéticas entre pares de aislados
+Considerando que tenemos 80 muestras -- ¿Cuántas comparaciones de dos en dos podemos hacer?
+
+```{r}
+D <- dist.dna(dna, model = "TN93")
+length(D)
+```
+1. ¿Por qué la longitud de D es esa? 
+2. ¿Qué significa TN93?
+
+Veamos la matriz de distancias genéticas 
+```{r}
+MatrizDG <- as.data.frame(as.matrix(D))
+table.paint(MatrizDG, cleg=0, clabel.row=.5, clabel.col=.5)
+```
+
+## Paso 2: Reconstruir el árbol filogenético
+```{r fig1, fig.height = 15, fig.width= 8}
+tre <- nj(D)
+plot(tre, cex = 0.6)
+title("Árbol de tipo NJ")
+```
+
+Ahora veamos el dendrograma
+```{r fig2, fig.height = 6, fig.width= 9}
+h_cluster <- hclust(D, method = "average", members = NULL)
+plot(h_cluster, cex = 0.6)
+```
+
+## Paso 2: Evaluar su robustez estadística mediante bootstrapping
+```{r}
+myBoots <- boot.phylo(tre, dna, function(e) root(nj(dist.dna(e, model = "TN93")),1))
+```
+
+```{r fig3, fig.height = 16, fig.width= 10}
+myPal <- colorRampPalette(c("red","yellow","green","blue"))
+plot(tre, edge.width=1, cex=.7)
+title("NJ tree + bootstrap values")
+tiplabels(frame="none", pch=20, col=transp(num2col(annot$year, col.pal=myPal),.7), cex=3, fg="transparent")
+temp <- pretty(1993:2008, 5)
+legend("topright", fill=transp(num2col(temp, col.pal=myPal),.7), leg=temp, ncol=2)
+nodelabels(myBoots, cex=.6)
+```
+
