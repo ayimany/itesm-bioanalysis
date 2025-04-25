@@ -83,6 +83,14 @@ genome_df$group <- factor(paste("Genome", 1:nrow(genome_df)))
 genome_df_pl <- pivot_longer(genome_df, cols = c(N_a, N_c, N_g, N_t), names_to = "property", values_to = "value")
 
 ggplot(genome_df_pl, aes(x = group, y = value, fill = property)) +
+  scale_fill_discrete(
+    name = "Base",
+    labels = c(
+      "N_a" = "A Bases",
+      "N_c" = "C Bases",
+      "N_g" = "G Bases",
+      "N_t" = "T Bases"
+  )) +
   geom_bar(stat = "identity", position = position_dodge()) +
   labs(x = "Genome", y = "Value", fill = "Property") +
   ggtitle("Grouped Bar Plot of Vector Properties") +
