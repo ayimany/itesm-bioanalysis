@@ -34,7 +34,9 @@ decomposeDnaString <- function(str) {
   }
   
   return(c(
-    'len'   = count,
+    'seq' = nstr,
+    'qes' = rev(nstr),
+    'len' = count,
     'N_a' = a_count,
     'N_c' = c_count,
     'N_g' = g_count,
@@ -50,14 +52,14 @@ decomposeDnaString <- function(str) {
 
 
 # Obtain the genome sequences from FASTA files
-genome_1 = readDNAStringSet('.\\resources\\GCA_011537295.1\\GCA_011537295.1_ASM1153729v1_genomic.fna');
-genome_2 = readDNAStringSet('.\\resources\\GCA_011537695.1\\GCA_011537695.1_ASM1153769v1_genomic.fna');
-genome_3 = readDNAStringSet('.\\resources\\GCA_011537705.1\\GCA_011537705.1_ASM1153770v1_genomic.fna');
-genome_4 = readDNAStringSet('.\\resources\\GCA_011545165.1\\GCA_011545165.1_ASM1154516v1_genomic.fna');
-genome_5 = readDNAStringSet('.\\resources\\GCA_011545245.1\\GCA_011545245.1_ASM1154524v1_genomic.fna');
-genome_6 = readDNAStringSet('.\\resources\\GCA_011545275.1\\GCA_011545275.1_ASM1154527v1_genomic.fna');
-genome_7 = readDNAStringSet('.\\resources\\GCA_011741995.1\\GCA_011741995.1_ASM1174199v1_genomic.fna');
-genome_8 = readDNAStringSet('.\\resources\\GCA_011742015.1\\GCA_011742015.1_ASM1174201v1_genomic.fna');
+genome_1 = readDNAStringSet('./resources/GCA_011537295.1/GCA_011537295.1_ASM1153729v1_genomic.fna');
+genome_2 = readDNAStringSet('./resources/GCA_011537695.1/GCA_011537695.1_ASM1153769v1_genomic.fna');
+genome_3 = readDNAStringSet('./resources/GCA_011537705.1/GCA_011537705.1_ASM1153770v1_genomic.fna');
+genome_4 = readDNAStringSet('./resources/GCA_011545165.1/GCA_011545165.1_ASM1154516v1_genomic.fna');
+genome_5 = readDNAStringSet('./resources/GCA_011545245.1/GCA_011545245.1_ASM1154524v1_genomic.fna');
+genome_6 = readDNAStringSet('./resources/GCA_011545275.1/GCA_011545275.1_ASM1154527v1_genomic.fna');
+genome_7 = readDNAStringSet('./resources/GCA_011741995.1/GCA_011741995.1_ASM1174199v1_genomic.fna');
+genome_8 = readDNAStringSet('./resources/GCA_011742015.1/GCA_011742015.1_ASM1174201v1_genomic.fna');
 
 # Store the sequences in a vector
 genomes <- list(
