@@ -33,7 +33,7 @@ decomposeDnaString <- function(str) {
     }
   }
   
-  return(c(
+  return(list(
     'seq' = nstr,
     'qes' = rev(nstr),
     'len' = count,
