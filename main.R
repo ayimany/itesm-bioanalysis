@@ -103,3 +103,5 @@ ggplot(genome_df_pl, aes(x = group, y = value, fill = property)) +
   ggtitle("Grouped Bar Plot of Vector Properties") +
   theme_minimal()
 
+
+
