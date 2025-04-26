@@ -61,16 +61,21 @@ genome_6 = readDNAStringSet('./resources/GCA_011545275.1/GCA_011545275.1_ASM1154
 genome_7 = readDNAStringSet('./resources/GCA_011741995.1/GCA_011741995.1_ASM1174199v1_genomic.fna');
 genome_8 = readDNAStringSet('./resources/GCA_011742015.1/GCA_011742015.1_ASM1174201v1_genomic.fna');
 
+alpha_variant = readDNAStringSet("./resources/variants/b117.fasta")
+beta_variant = readDNAStringSet("./resources/variants/b1351.fasta")
+gamma_variant = readDNAStringSet("./resources/variants/p1.fasta")
+delta_variant = readDNAStringSet("./resources/variants/b16172.fasta")
+omicron_variant = readDNAStringSet("./resources/variants/b11529.fasta")
+
+# WARNING: delta_variant seems not to work
+
 # Store the sequences in a vector
 genomes <- list(
   genome_1,
-  genome_2,
-  genome_3,
-  genome_4,
-  genome_5,
-  genome_6,
-  genome_7,
-  genome_8
+  alpha_variant,
+  beta_variant, 
+  gamma_variant, 
+  omicron_variant
 );
 
 # Convert to character strings
@@ -81,7 +86,7 @@ genome_freq <- lapply(genome_strs, decomposeDnaString);
 
 # Begin the frequency plot
 genome_df <- do.call(rbind, lapply(genome_freq, as.data.frame.list))
-genome_df$group <- factor(paste("Genome", 1:nrow(genome_df)))
+genome_df$group <- factor(c("Base", "Alpha", "Beta", "Gamma", "Omicron"))
 genome_df_pl <- pivot_longer(genome_df, cols = c(N_a, N_c, N_g, N_t), names_to = "property", values_to = "value")
 
 ggplot(genome_df_pl, aes(x = group, y = value, fill = property)) +
@@ -97,3 +102,4 @@ ggplot(genome_df_pl, aes(x = group, y = value, fill = property)) +
   labs(x = "Genome", y = "Value", fill = "Property") +
   ggtitle("Grouped Bar Plot of Vector Properties") +
   theme_minimal()
+
