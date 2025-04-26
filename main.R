@@ -35,7 +35,7 @@ decomposeDnaString <- function(str) {
   
   return(list(
     'seq' = nstr,
-    'qes' = rev(nstr),
+    'qes' = paste(rev(char_vec), sep = '', collapse = ''),
     'len' = count,
     'N_a' = a_count,
     'N_c' = c_count,
