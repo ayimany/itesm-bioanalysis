@@ -1,0 +1,392 @@
+---
+title: "Evidencia1"
+author: "no se les olvide poner su nombre"
+date: "2025-04-24"
+output: pdf_document
+editor_options: 
+  markdown: 
+    wrap: sentence
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Evidencia 1.Análisis inicial
+
+## ¿Cual es la situación actual de COVID-19 en el mundo, en México, en tu estado de origen y en tu municipio y colonia o alcaldia?
+
+En el mundo
+
+Durante 2024 predominó la JN.1 y KP.3, esta última y la XEC prevalecen en lo que va de 2025, a nivel nacional y global.
+“El virus tiene una capacidad de mutación alta, pero ya no tan frecuente como antes debido a que la cantidad de gente enferma no es la misma.
+Al principio se daban millones de contagios en pocos días”.(Valencia, Noxpanco & Herrera, 2025)
+
+Por otro lado, en los últimos 28 días se han reportado 52,223 casos confirmados a nivel mundial con un decremento de 84,654.
+(Secretaría de Salud del Estado de Querétaro, s.f.).
+
+México
+
+De acuerdo con los datos del Sistema de Vigilancia Epidemiológica de Enfermedad Respiratoria Viral (SISVER) en 2024 (corte 10 de marzo de 2025) se han confirmado 14,147 casos de COVID19 por RT-PCR en las USMER.
+(Dirección de Vigilancia Epidemiológica de Enfermedades Transmisibles, 2025).
+
+Querétaro
+
+A lo largo del año, en el estado de Querétaro se han detectado 197,401 casos de covid 19 con un total del 7,062 defunciones acumuladas.
+Hasta el pasado 14 de abril de 2025 se estudiaron 281,089 casos de posible COVID de los cuales se confirmaron 129,521.
+(Secretaría de Salud del Estado de Querétaro, s.f.)
+
+## ¿Cuál fue la primera variante del virus que se propagó por el mundo?
+
+B.1.1.7 (Alpha)
+
+A finales de 2020, la cepa L original del virus COVID había pasado por múltiples mutaciones, incluidas las cepas S, V y G.
+La primera variante muy publicitada, la B.1.1.7, entonces llamada Alpha, apareció en el Reino Unido en septiembre de 2020.
+La variante Alfa provocó un aumento repentino de infecciones por COVID-19 en todo el mundo, incluso antes de que existieran vacunas.
+Esta variante fue más letal que la cepa original del virus de la COVID-19.
+
+Los síntomas más comunes de B.1.1.7 fueron similares a los reportados con la cepa original e incluyeron pérdida del gusto o del olfato, fiebre, tos seca, dificultad para respirar, dolor de cabeza, dolor de garganta, congestión o secreción nasal, náuseas o vómitos y diarrea.
+Las tres principales vacunas contra la COVID (Pfizer, Moderna y J&J) fueron eficaces contra la variante Alfa.
+(Team Verywell Health, 2024).
+
+## ¿Cuáles son las otras variantes del virus que existen en otras regiones del mundo?
+
+B.1.351 (Beta)
+
+Poco después del descubrimiento de la variante Alfa, se identificó en Sudáfrica la variante Beta del virus de la COVID-19 (B.1.351). Esta se propagó rápidamente a otros países.
+
+Una estimación citada por los Centros para el Control y la Prevención de Enfermedades (CDC) sugirió que la variante Beta era aproximadamente un 50% más transmisible que la cepa original del virus COVID, pero solo representó un porcentaje muy pequeño de los casos generales en los Estados Unidos.
+
+P.1 (Gamma)
+
+P.1, la variante Gamma del virus COVID, se identificó por primera vez en Brasil en noviembre de 2022 Gamma no fue responsable de muchos casos de COVID en EE.
+UU.
+
+En el otoño de 2021, los CDC observaron que parecía haber un riesgo de infecciones por COVID "recurrentes" en personas que habían sido completamente vacunadas.
+
+Aunque los datos sobre la variante Gamma eran limitados, los expertos no vieron evidencia de que fuera tan transmisible como la variante Alfa o la próxima Delta.
+
+B.1.427 y B.1.429 (Epsilon)
+
+En julio de 2020, investigadores identificaron una nueva variante en el sur de California.
+La OMS la denominó Epsilon e incluía las variantes B.1.427 y B.1.429.
+Para el otoño, los expertos la consideraron una de las variantes a vigilar.
+
+B.1.617.1 (Kappa)
+
+La variante B.1.617.1 se denominó Kappa.
+Se detectó por primera vez en la India en otoño de 2020.
+Se propagó a otros países y la OMS la consideró una variante en investigación.
+
+Sin embargo, los expertos mundiales en salud pública no la consideraron una variante preocupante.
+A partir del otoño de 2021, la OMS la consideró una variante a vigilar.
+
+C.37 (Lambda)
+
+La variante C.37 se denominó Lambda.
+Se identificó por primera vez en Perú en diciembre de 2020.
+Se propagó a otros países, incluido Estados Unidos, pero no generó tantos casos como otras variantes circulantes.
+
+Al igual que con otras cepas nuevas, las principales preocupaciones eran que la variante Lambda se propagara más fácilmente, causara una enfermedad más grave y resistiera a las vacunas y los tratamientos.
+
+B.1.525 (Eta)
+
+B.1.525, la variante Eta , se detectó por primera vez en el Reino Unido y Nigeria en diciembre de 2020.
+
+No representó tantos casos como otras variantes circulantes y los investigadores no estaban seguros de cuáles serían las implicaciones de los cambios en el virus en términos de transmisibilidad e inmunidad.
+
+B.1.621, B.1.621.1 (Mu)
+
+La variante B.1.621/B.1.621.1, o Mu , se identificó en Colombia en enero de 2021 y la OMS la consideró una variante de interés a finales del verano.
+
+Los brotes relacionados con Mu se produjeron principalmente en América del Sur y Europa, aunque finalmente se propagaron a otros países, incluido Estados Unidos.
+
+B.1.526 (Iota)
+
+La variante B.1.526, llamada Iota, se identificó por primera vez en la ciudad de Nueva York en febrero de 2021.
+La principal preocupación con esta variante era que se propagaba con mayor facilidad y enfermaba mucho más a las personas, con una tasa de mortalidad por COVID más alta.
+
+P.2 (Zeta)
+
+La variante P.2, la variante Zeta, se identificó en Brasil en febrero de 2021.
+Era una variante de interés, pero no preocupante.
+Al no propagarse más, la OMS retiró la designación de variante de interés.
+
+B.1.617.2 (Delta)
+
+La variante B.1.617.2, conocida como la variante Delta del virus de la COVID-19, golpeó con fuerza en la primavera de 2021.
+Primero se convirtió en la variante dominante en la India y se extendió a más de 130 países, causando una ola mortal de infecciones por COVID-19 en todo el mundo.
+
+B.1.1.529 (Omicron)
+
+La variante original Omicron fue identificada a fines de noviembre de 2021 y superó a Delta como la variante dominante en un mes.
+La variante altamente mutada era altamente transmisible, pero algunos estudios demostraron que causaba infecciones más leves y las personas tenían menos probabilidades de ser hospitalizadas con COVID si estaban infectadas con la cepa.
+
+Los síntomas más comunes de la variante Omicron fueron tos, fatiga, congestión o secreción nasal y fiebre.
+Omicron BA.1 and BA.2
+
+La subvariante ómicron BA.1 siguió de cerca a la B.1.1.529.
+Cuando se informó por primera vez sobre la BA.2, los medios la calificaron de variante "oculta" por su dificultad para detectarla y rastrearla.
+
+La OMS afirmó que la BA.2 tenía una " ventaja de crecimiento " sobre la variante Ómicron original.
+
+La Ómicron BA.2 comenzó a propagarse más en el noreste de EE.
+UU.
+alrededor de marzo de 2022.
+
+Los síntomas más comunes de BA.1 y BA.2 fueron similares a los de B.1.1.529.
+
+De manera similar a los problemas con variantes anteriores, los CDC detectaron infecciones irruptivas en personas completamente vacunadas.
+
+Omicron BA.2.12.1
+
+Como una rama de la Omicron BA.2, la variante BA.2.12.21 representó la mayoría de los casos nuevos en el noreste de los EE.UU.
+en mayo de 2022.
+
+Se pensaba que la cepa era más transmisible que las variantes anteriores, pero la infección parecía permanecer mayoritariamente en el tracto respiratorio superior en lugar de avanzar más profundamente hacia los pulmones.
+
+Omicron BQ.1 y BQ.1.1
+
+En octubre de 2022, BQ.1 y BQ.1.1, que provenían de BA.5, representaban más del 16 % de los casos de COVID en los EE.
+UU. Se demostró que los refuerzos bivalentes ofrecen protección contra estas subvariantes porque son parte de la familia BA.5.
+
+Omicron BA.4 y BA.5
+
+Omicron BA.4 y BA.5 aparecieron en los EE.
+UU.
+alrededor de mayo de 2022.
+
+Los primeros datos sugirieron que las dos subvariantes podían evadir las defensas inmunes mejor que las versiones anteriores de Omicron, causando reinfecciones incluso en personas que habían recibido una dosis de refuerzo o se habían recuperado recientemente de COVID.
+
+Omicron XBB.1.16 - "Arcturus"
+
+En abril de 2023, la OMS publicó su primera evaluación de riesgos para la variante XBB 1.16 , detectada por primera vez en enero.
+En abril, se la consideró una variante de interés debido al aumento de casos atribuidos a ella en todo el mundo.
+
+No parecía que XBB.1.16 estuviera causando una enfermedad más grave que XBB1.5, aunque sí parecía probable que pudiera convertirse en una variante dominante.
+
+Omicron EG.5 - "Eris"
+
+Apodada Eris, la EG.5 se ha convertido en una de las variantes dominantes que monitorean los CDC.
+En julio de 2023, la OMS la consideró una variante bajo vigilancia .
+Está estrechamente relacionada con las variantes XBB, por lo que los investigadores creen que es probable que las vacunas actualizadas y los tratamientos actuales, diseñados con variantes ómicron similares, también sean eficaces contra Eris.
+
+Omicron BA.2.86 - "Pirola"
+
+El 23 de agosto de 2023, los CDC brindaron una actualización sobre BA.2.86 , apodada Pirola , una variante que se ha detectado en los EE.
+UU., así como en el Reino Unido, Dinamarca, India y Sudáfrica.
+Omicron BA.2.75.2 - "Centaurus"
+
+Las variantes Ómicron BA.2.75, XBB.2.3, XBB.1.9.2 y XBB.1.9.1 también se encuentran bajo vigilancia.
+De estas, la BA.2.75.2 —una subvariante de una subvariante ya conocida como Centaurus— destaca como una adición interesante a la lista, no por la gran cantidad de muestras disponibles hasta el momento (la OMS solo contaba con 3 secuencias en agosto de 2023), sino por su gran cantidad de mutaciones en comparación con las variantes anteriores.
+
+HV.1 y FL.1.5.1
+
+En septiembre de 2023, dos variantes de XBB, HV.1 y FL.1.5.1 (" Fornax "), también comenzaron a aumentar.
+Al igual que EG.5 , FL.1.5.1 parecía tener una mutación que facilitaba su propagación.
+
+JN.1
+
+En diciembre, los CDC anunciaron que estaban rastreando una nueva variante, JN.1, que estaba estrechamente relacionada con BA.2.86.
+La variante parecía ser más transmisible o mejor para evadir la inmunidad, pero los CDC no pensaron que fuera un riesgo mayor para la salud pública que cualquier otra variante circulante.
+
+KP.2 'FLiRT'
+
+La variante KP.2 «FlLiRT» forma parte de un grupo más amplio de descendientes de Ómicron (otras también tienen nombres que empiezan por KP o JN).
+El nombre «FLiRT» proviene de los nombres técnicos de las mutaciones en la proteína de la espícula del virus.
+
+KP.3, KP.3.1.1
+
+A principios del verano, comenzaron a aparecer más variantes de FLiRT, KP.3 y KP.3.1.1.
+Esta última se había convertido en la cepa dominante en EE.
+UU .
+para agosto de 2024, en medio de un aumento repentino de casos de COVID durante el verano.
+
+LB.1
+
+La variante más reciente de COVID-19 en el panorama se ha denominado LB.1.
+Se trata de una subvariante emergente similar a las variantes FLiRT, pero con una mutación diferente .
+A principios de agosto de 2024, la LB.1 representaba aproximadamente el 14,9 % de los casos nuevos en EE.
+UU.
+(menos que en las dos semanas anteriores de seguimiento).
+Aún es posible que la LB.1 supere el predominio de KP.2 y KP.3 durante el verano.
+(Team Verywell Health, 2024)
+
+## ¿Cómo buscarías información de la variante del virus en tu país?
+
+Buscaría en sitios oficiales como la Secretaría de Salud, la Organización Mundial de la Salud (OMS) y la Organización Panamericana de la Salud (OPS), ya que son fuentes confiables que publican información actualizada y verificada.
+Además, haría búsquedas específicas en internet usando palabras clave como “variante COVID abril 2025 en México” para encontrar noticias recientes o comunicados importantes.
+
+También revisaría las redes sociales oficiales de instituciones de salud y del gobierno, ya que ahí suelen compartir avisos relevantes de forma rápida.
+
+Por último, consultaría medios de comunicación reconocidos y, si necesito información más detallada, buscaría artículos científicos en plataformas como Google Scholar.
+
+## Código de secuencias
+
+```{r}
+# Libraries
+library(ade4)
+library(ape)
+library(adegenet)
+library(Biostrings)
+library(ggplot2)
+library(tidyr)
+
+# Handmade methods for performing operations on data
+decomposeDnaString <- function(str) {
+  nstr <- toupper(str)
+  char_vec <- strsplit(nstr, "")[[1]]
+  
+  count   <- 0;
+  a_count <- 0;
+  c_count <- 0;
+  g_count <- 0;
+  t_count <- 0;
+  n_count <- 0;
+  
+  for (c in char_vec) {
+    count <- count + 1
+    if (c == 'A') {
+      a_count <- a_count + 1;
+    } else if (c == 'C') {
+      c_count <- c_count + 1;
+    } else if (c == 'G') {
+      g_count <- g_count + 1;
+    } else if (c == 'T') {
+      t_count <- t_count + 1;
+    } else {
+      n_count <- n_count + 1;
+    }
+  }
+  
+  return(list(
+    'seq' = nstr,
+    'qes' = paste(rev(char_vec), sep = '', collapse = ''),
+    'len' = count,
+    'N_a' = a_count,
+    'N_c' = c_count,
+    'N_g' = g_count,
+    'N_t' = t_count,
+    'N_n' = n_count,
+    'P_a' = a_count / count,
+    'P_c' = c_count / count,
+    'P_g' = g_count / count,
+    'P_t' = t_count / count,
+    'P_n' = n_count / count
+));
+}
+
+
+# Obtain the genome sequences from FASTA files
+genome_1 = readDNAStringSet('./resources/GCA_011537295.1/GCA_011537295.1_ASM1153729v1_genomic.fna');
+genome_2 = readDNAStringSet('./resources/GCA_011537695.1/GCA_011537695.1_ASM1153769v1_genomic.fna');
+genome_3 = readDNAStringSet('./resources/GCA_011537705.1/GCA_011537705.1_ASM1153770v1_genomic.fna');
+genome_4 = readDNAStringSet('./resources/GCA_011545165.1/GCA_011545165.1_ASM1154516v1_genomic.fna');
+genome_5 = readDNAStringSet('./resources/GCA_011545245.1/GCA_011545245.1_ASM1154524v1_genomic.fna');
+genome_6 = readDNAStringSet('./resources/GCA_011545275.1/GCA_011545275.1_ASM1154527v1_genomic.fna');
+genome_7 = readDNAStringSet('./resources/GCA_011741995.1/GCA_011741995.1_ASM1174199v1_genomic.fna');
+genome_8 = readDNAStringSet('./resources/GCA_011742015.1/GCA_011742015.1_ASM1174201v1_genomic.fna');
+
+alpha_variant = readDNAStringSet("./resources/variants/b117.fasta")
+beta_variant = readDNAStringSet("./resources/variants/b1351.fasta")
+gamma_variant = readDNAStringSet("./resources/variants/p1.fasta")
+delta_variant = readDNAStringSet("./resources/variants/b16172.fasta")
+omicron_variant = readDNAStringSet("./resources/variants/b11529.fasta")
+
+# WARNING: delta_variant seems not to work
+
+# Store the sequences in a vector
+genomes <- list(
+  genome_1,
+  alpha_variant,
+  beta_variant, 
+  gamma_variant, 
+  omicron_variant
+);
+```
+
+El código de la parte superior se encarga de analizar todas las variantes, y nos devuelve los datos en forma de lista. Con esta función podemos visualizar todos nuestros datos. 
+
+```{r}
+# Convert to character strings
+genome_strs <- lapply(genomes, as.character);
+
+# Convert to lengths, frequencies and percentages
+genome_freq <- lapply(genome_strs, decomposeDnaString);
+
+# Begin the frequency plot
+genome_df <- do.call(rbind, lapply(genome_freq, as.data.frame.list))
+genome_df$group <- factor(c("Base", "Alpha", "Beta", "Gamma", "Omicron"))
+genome_df_pl <- pivot_longer(genome_df, cols = c(N_a, N_c, N_g, N_t), names_to = "property", values_to = "value")
+
+ggplot(genome_df_pl, aes(x = group, y = value, fill = property)) +
+  scale_fill_discrete(
+    name = "Base",
+    labels = c(
+      "N_a" = "A Bases",
+      "N_c" = "C Bases",
+      "N_g" = "G Bases",
+      "N_t" = "T Bases"
+  )) +
+  geom_bar(stat = "identity", position = position_dodge()) +
+  labs(x = "Genome", y = "Value", fill = "Property") +
+  ggtitle("Grouped Bar Plot of Vector Properties") +
+  theme_minimal()
+```
+
+Este bloque de código se encarga de graficar las cantidades de las bases como histogramas. 
+
+```{r}
+for (genome in genome_freq) {
+  cg = as.numeric(genome["P_c"]) + as.numeric(genome["P_g"])
+  print(cg)
+}
+```
+
+Este bloque nos muestra los %CG de cada variante. 
+
+```{r}
+for (genome in genome_freq) {
+  print(substr(genome["qes"], 1, 150))
+}
+```
+
+Este bloque de codigo nos muestra las variantes en contrasentido. Solo se muestran las primeras 150 bases. 
+
+## Bibliografía: 
+
+Dirección de Vigilancia Epidemiológica de Enfermedades Transmisibles.
+(2025, marzo 10).
+Informe semanal de la COVID-19, influenza y otros virus respiratorios: Semana epidemiológica 10 (del 2 al 8 de marzo de 2025).
+Secretaría de Salud.
+<https://www.gob.mx/cms/uploads/attachment/file/983257/Informe_semanal_ERV_SE10_2025_10.03.2025.pdf>​
+
+Valencia, I., Noxpanco, E., & Herrera, N.
+(2025, marzo 7).
+COVID-19: La evolución del virus a cinco años.
+UNAM Global.
+<https://unamglobal.unam.mx/global_tv/covid-19-la-evolucion-del-virus-a-cinco-anos/>
+
+Secretaría de Salud del Estado de Querétaro.
+(s.f.).
+Listado de métricas COVID-19 SESEQ. Gobierno del Estado de Querétaro.
+<https://portal.queretaro.gob.mx/covid19/contenido/listadoMetricasSESEQ.aspx>
+
+Secretaría de Salud.
+(2025).
+Informe semanal de vigilancia epidemiológica de enfermedad respiratoria viral, semana 10 (del 2 al 8 de marzo de 2025).
+Dirección General de Epidemiología.
+<https://www.gob.mx/cms/uploads/attachment/file/983257/Informe_semanal_ERV_SE10_2025_10.03.2025.pdf>
+
+Secretaría de Salud del Estado de Querétaro.
+(s.f.).
+COVID-19 en Querétaro.
+Gobierno del Estado de Querétaro.
+<https://www.queretaro.gob.mx/covid19>
+
+Team Verywell Health.
+(2024, septiembre 25).
+A timeline of COVID-19 variants.
+Verywell Health.
+<https://www.verywellhealth.com/covid-variants-timeline-6741198#>:\~:text=The%20first%20highly%20publicized%20variant,United%20Kingdom%20in%20September%202020.
+
