@@ -1,10 +1,12 @@
 ---
 title: "Evidencia1"
-author: "no se les olvide poner su nombre"
+author: "Diego Alberto Pasaye González"
 date: "2025-04-24"
-output: pdf_document
-editor_options: 
-  markdown: 
+output:
+  html_document:
+    df_print: paged
+editor_options:
+  markdown:
     wrap: sentence
 ---
 
@@ -223,7 +225,7 @@ Por último, consultaría medios de comunicación reconocidos y, si necesito inf
 
 ## Código de secuencias
 
-```{r}
+```{r, message = FALSE}
 # Libraries
 library(ade4)
 library(ape)
@@ -231,7 +233,9 @@ library(adegenet)
 library(Biostrings)
 library(ggplot2)
 library(tidyr)
+```
 
+```{r}
 # Handmade methods for performing operations on data
 decomposeDnaString <- function(str) {
   nstr <- toupper(str)
@@ -337,15 +341,18 @@ ggplot(genome_df_pl, aes(x = group, y = value, fill = property)) +
 Este bloque de código se encarga de graficar las cantidades de las bases como histogramas. 
 
 ```{r}
+i <- 0
 for (genome in genome_freq) {
-  cg = as.numeric(genome["P_c"]) + as.numeric(genome["P_g"])
-  print(cg)
+  i <- i + 1
+  cg = as.numeric(genome["P_c"]) + as.numeric(genome["P_g"]) * 100
+  print(paste("The %GC for genome ", i, " is of ", cg, "%", sep = ""))
 }
 ```
 
 Este bloque nos muestra los %CG de cada variante. 
 
 ```{r}
+
 for (genome in genome_freq) {
   print(substr(genome["qes"], 1, 150))
 }
